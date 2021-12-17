@@ -15,14 +15,14 @@ module.exports = {
       link: '/'
     }],
     sidebar: {
-      'jinjie': [{
-        title: '进阶',
-        collapsable: true, // 可折叠
-        children: [
-          '/jinjie/十分钟了解BFC',
-          '/jinjie/手写装饰器'
-        ]
-      }],
+      // 'jinjie': [{
+      //   title: '进阶',
+      //   collapsable: true, // 可折叠
+      //   children: [
+      //     '/jinjie/十分钟了解BFC',
+      //     '/jinjie/手写装饰器'
+      //   ]
+      // }],
       '/base/': [
         '',
         '闭包',
