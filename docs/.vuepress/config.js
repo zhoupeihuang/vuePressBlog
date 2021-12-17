@@ -2,13 +2,21 @@ module.exports = {
   title: 'peyton\'s blog',
   description: '我的个人博客',
   themeConfig: {
-    nav: [ // 导航栏配置
+    plugins: [
+      'vuepress-plugin-redirect',
+      {
+          // provide i18n redirection
+          // it will automatically redirect `/foo/bar/` to `/:locale/foo/bar/` if exists
+          locales: true,
+      },
+  ],
+  sidebar: [
       {
         text: 'Home',
         link: '/'
       },
       {
-        text: '基础',
+       text: 'base',
        items:[
         {text: '闭包',link: '/base/闭包'},
         {text: '错误提示',link: '/base/错误提示'},
