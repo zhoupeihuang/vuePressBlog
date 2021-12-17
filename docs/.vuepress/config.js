@@ -1,47 +1,25 @@
 module.exports = {
   title: 'peyton\'s blog',
   description: '我的个人博客',
-  configureWebpack: {
-    resolve: {
-      alias: {
-        '@alias': 'path/to/some/dir'
-      }
-    }
-  },
-  head: [ // 注入到当前页面的 HTML <head> 中的标签
-    ['link', {
-      rel: 'icon',
-      href: './public/images/logo.jpg'
-    }], // 增加一个自定义的 favicon(网页标签的图标)
-  ],
-  base: '/', // 这是部署到github相关的配置
-  markdown: {
-    lineNumbers: false // 代码块显示行号
-  },
   themeConfig: {
     nav: [ // 导航栏配置
       {
         text: 'Home',
         link: '/'
       },
+      {
+        text: '基础',
+       items:[
+        {text: '闭包',link: '/base/闭包'},
+        {text: '错误提示',link: '/base/错误提示'},
+        {text: '防抖节流',link: '/base/防抖节流'},
+        {text: '冒泡排序',link: '/base/冒泡排序'},
+        {text: '前端跨域',link: '/base/前端跨域'},
+        {text: '什么是装饰器',link: '/base/什么是装饰器'},
+       ]
+      },
       { text: 'External', link: 'https://vuepress.docschina.org/default-theme-config/#%E4%B8%BB%E9%A1%B5-homepage' },
     ],
-    plugins: [
-      'vuepress-plugin-redirect',
-      {
-        // provide i18n redirection
-        // it will automatically redirect `/foo/bar/` to `/:locale/foo/bar/` if exists
-        locales: true,
-      },
-    ],
-    sidebar: [{
-      title: '前言', // 必要的
-      collapsable: true, // 可选的, 默认值是 true,
-      children: [
-        '/'
-      ]
-    }, ],
-
     sidebar: 'auto', // 侧边栏配置
     sidebarDepth: 2, // 侧边栏显示2级
   }
