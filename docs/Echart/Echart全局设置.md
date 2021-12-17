@@ -1,3 +1,12 @@
+---
+title: Echart全局设置
+date: 2021-12-17 10:50:23
+permalink: /pages/d58125/
+categories:
+  - Echart
+tags:
+  - 
+---
 
 echarts属性的设置（ 完整大全）
 

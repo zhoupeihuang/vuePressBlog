@@ -1,6 +1,11 @@
 ---
-
-
+title: 0 GUI
+date: 2021-12-17 10:50:23
+permalink: /pages/25ee20/
+categories:
+  - Vue
+tags:
+  - 
 ---
 
 <h1 id="vue-cli-3.0-gui">vue-cli 3.0 GUI</h1>

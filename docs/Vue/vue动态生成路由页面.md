@@ -1,6 +1,11 @@
 ---
-
-
+title: vue动态生成路由页面
+date: 2021-12-17 10:50:23
+permalink: /pages/2e928b/
+categories:
+  - Vue
+tags:
+  - 
 ---
 
 <h2 id="根据路由动态生成pagelist">根据路由动态生成pageList</h2>

@@ -1,4 +1,13 @@
-﻿设置淘x,宝的是：  
+---
+title: npm 镜像
+date: 2021-12-17 17:45:30
+permalink: /pages/3d7717/
+categories:
+  - 面试
+tags:
+  - 
+---
+设置淘x,宝的是：  
 npm config set registry [https://registry.npm.taobao.org](https://registry.npm.taobao.org/)  
 
 

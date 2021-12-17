@@ -1,4 +1,13 @@
-﻿页脚置底（Sticky Footer）就是让网页的 footer 部分始终在浏览器窗口的底部。
+---
+title: 5种footer底部固定
+date: 2021-12-17 18:02:57
+permalink: /pages/125420/
+categories:
+  - CSS
+tags:
+  - 
+---
+页脚置底（Sticky Footer）就是让网页的 footer 部分始终在浏览器窗口的底部。
 
 当网页内容足够长以至超出浏览器可视高度时，页脚会随着内容被推到网页底部；但如果网页内容不够长，置底的页脚就会保持在浏览器窗口底部。
 

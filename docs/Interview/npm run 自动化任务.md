@@ -1,4 +1,13 @@
-﻿
+---
+title: npm run 自动化任务
+date: 2021-12-17 17:37:38
+permalink: /pages/1f6bab/
+categories:
+  - 面试
+tags:
+  - 
+---
+
 
 
  # 用npm-run自动化任务

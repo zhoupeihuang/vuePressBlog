@@ -1,3 +1,12 @@
+---
+title: vuex
+date: 2021-12-17 10:50:23
+permalink: /pages/8d8ea3/
+categories:
+  - Vue
+tags:
+  - 
+---
 
 # vuex 之简介
 ## 此文只针对 user 类做实例

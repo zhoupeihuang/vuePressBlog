@@ -1,4 +1,13 @@
-﻿**阅读目录**
+---
+title: css垂直居中
+date: 2021-12-17 18:03:06
+permalink: /pages/7779a3/
+categories:
+  - CSS
+tags:
+  - 
+---
+**阅读目录**
 
 -   [方法一：position加margin](https://www.cnblogs.com/xianyulaodi/p/5863305.html#_label0)
 -   [方法二： diaplay:table-cell](https://www.cnblogs.com/xianyulaodi/p/5863305.html#_label1)
