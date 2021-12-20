@@ -1,5 +1,6 @@
 
 const sidebarConfig =  require("./sidebarConfig");
+// const autosidebar = require('vuepress-auto-sidebar-doumjun')
 
 module.exports = {
   title: 'peyton Blog', // 设置网站标题
@@ -12,7 +13,7 @@ module.exports = {
   },
   themeConfig: {
     plugins: {
-      "vuepress-plugin-auto-sidebar": {},
+      // "vuepress-plugin-auto-sidebar": {},
       '@vuepress/back-to-top': true,
       '@vuepress/medium-zoom': {
         selector: '.content__default img',
