@@ -1,3 +1,6 @@
+
+const sidebarConfig =  require("./sidebarConfig");
+
 module.exports = {
   title: 'peyton Blog', // 设置网站标题
   description: 'Adroi',
@@ -31,12 +34,7 @@ module.exports = {
         buttonText: '刷新'
       }
     },
-    smoothScroll: true, //页面滚动效果
-    sidebar: { // 侧边栏
-      // '/class1/class11/': class11,
-      // '/class1/class12/': class12,
-      // '/class2/': class2
-    },
-    sidebarDepth: 2
+    sidebar:sidebarConfig,
+    smoothScroll: true, //页面滚动效果   
     }
   }

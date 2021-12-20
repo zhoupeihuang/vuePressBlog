@@ -15,7 +15,8 @@
     "@vuepress/plugin-medium-zoom": "^1.8.2",
     "@vuepress/plugin-nprogress": "^1.8.2",
     "vuepress": "^1.8.2",
-    "vuepress-plugin-redirect": "^1.2.5"
+    "vuepress-plugin-redirect": "^1.2.5",
+    "vuepress-sidebar-atuo": "^1.0.4"
   },
   "devDependencies": {
     "vuepress-theme-vdoing": "^1.8.6"
