@@ -18,7 +18,7 @@ module.exports = {
     },
     lastUpdated: 'Last Updated', // 显示最后的更新时间
     sidebarDepth: 3, // 侧边栏的目录深度
-    repo: 'https://github.com/Tamray/myblog', // 源码地址
+    repo: 'https://github.com/zhoupeihuang/vuePressBlog', // 源码地址
     repoLabel: '查看源码', // (查看源码的)组件名称
     docsBranch: 'master', // git 源仓库 仓库分支
     docsDir: 'docs', // 仓库下的文件夹
