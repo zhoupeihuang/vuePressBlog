@@ -32,10 +32,10 @@ module.exports = {
       }
     },
     smoothScroll: true, //页面滚动效果
-    sidebar: { // 侧边栏
-      // '/class1/class11/': class11,
-      // '/class1/class12/': class12,
-      // '/class2/': class2
-    }   
+//     sidebar: { // 侧边栏
+//       // '/class1/class11/': class11,
+//       // '/class1/class12/': class12,
+//       // '/class2/': class2
+//     }   
     }
   }
