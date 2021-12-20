@@ -36,7 +36,6 @@ module.exports = {
       // '/class1/class11/': class11,
       // '/class1/class12/': class12,
       // '/class2/': class2
-    },
-    sidebarDepth: 2
+    }   
     }
   }
