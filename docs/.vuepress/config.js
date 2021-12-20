@@ -8,11 +8,11 @@ module.exports = {
   },
   plugins: {
     "vuepress-plugin-auto-sidebar": {},
-    '@vuepress/nprogress': {},
-    '@vuepress/back-to-top': true,
-    '@vuepress/medium-zoom': {
-      selector: '.content__default img',
-    },
+    // '@vuepress/nprogress': {},
+    // '@vuepress/back-to-top': true,
+    // '@vuepress/medium-zoom': {
+    //   selector: '.content__default img',
+    // },
   },
   themeConfig: {
     nav: [{
